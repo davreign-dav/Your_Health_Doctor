@@ -141,8 +141,6 @@ nltk==3.7
 notebook==6.4.0
 numpy==1.21.2
 oauthlib==3.1.1
-opencv-contrib-python==4.5.2.54
-opencv-python==4.5.3.56
 opt-einsum==3.3.0
 packaging==21.3
 pafy==0.5.5
@@ -189,7 +187,6 @@ PyMySQL==1.0.2
 pynput==1.7.3
 pyparsing==2.4.7
 pyperclip==1.8.2
-pypi==2.1
 pypiwin32==223
 PyPrind==2.11.3
 PyQt5==5.15.4
@@ -265,7 +262,6 @@ tensorboard-plugin-wit==1.8.0
 termcolor==1.1.0
 terminado==0.10.1
 testpath==0.5.0
-tf-estimator-nightly==2.8.0.dev2021122109
 tflearn==0.5.0
 thinc==7.4.5
 threadpoolctl==2.1.0
