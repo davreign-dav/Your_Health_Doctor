@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://devendra:4wNkV9tMUQXeDAXzK8a2IOLyYC4CQVA0@dpg-cgnsma8rddl9mmvtmhrg-a.ohio-postgres.render.com/health')
+    'default': dj_database_url.parse(env('DATABASE_URL'))
 }
 
 
