@@ -13,7 +13,7 @@ from random import randint
 import qrcode, pyzbar
 # Create your views here.
 
-location = "E:\Prakash College Work\Sem6\Minor Project II\Your_Health_Doctor\pics\QR_codes"
+location = "Your_Health_Doctor\pics\QR_codes"
 
    
 def logout(request):
@@ -107,7 +107,7 @@ def signup_patient(request):
 
     
     else :
-      return render(request,'patient/signup_Form/signup.html')
+      return render(request,'staticfiles/patient/signup_Form/signup.html')
 
 def sign_in_patient(request):
   
