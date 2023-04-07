@@ -96,7 +96,7 @@ itsdangerous==2.0.1
 jaraco.context==4.0.0
 jedi==0.18.0
 Jinja2==3.0.1
-joblib==1.1.0
+joblib==1.1.1
 Js2Py==0.71
 json5==0.9.6
 jsonschema==3.2.0
