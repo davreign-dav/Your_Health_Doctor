@@ -107,7 +107,7 @@ def signup_patient(request):
 
     
     else :
-      return render(request,'staticfiles/patient/signup_Form/signup.html')
+      return render(request,'patient/signup_Form/signup.html')
 
 def sign_in_patient(request):
   
